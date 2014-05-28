@@ -1,0 +1,28 @@
+MIDlet-1: Mobile Astrology,/img/logo.png,com.killermobi.ma.rish.Home
+MIDlet-Description: Mobile Astrologer is a free astrology tool for your mobile, which predict your personality based on your name and birth credential.
+MIDlet-Icon: /img/logo.png
+MIDlet-Info-URL: http://killermobi.com
+MIDlet-Jar-Size: 376020
+MIDlet-Jar-URL: Mobile_Astrologer.jar
+MIDlet-Name: Mobile Astrologer
+MIDlet-Vendor: KillerMobi.com
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1
+IA-X-cmdExit: exit
+IA-X-cmdOK: ok
+IA-X-contentName: IA_GameTest
+IA-X-disclaimerText: We are able to provide you a free, full version of this game thanks to the help of our sponsors, carefully selected to meet your preference.
+IA-X-disclaimerTitle:Information
+IA-X-errorInDisclaimerNotice: Oops... There has been a connectivity error and the application will exit now. Please check the connectivity setting and try again.
+IA-X-firstURL: http://cd1.inner-active.com/Server-1.8X/ClientStart
+IA-X-invertedFlag: non
+IA-X-portal: 553
+IA-X-socketSupport: 0
+IA-X-getOfferingPageStr: ClientGetOffering
+IA-X-languageFilePageStr: GetLanguageStringsFile
+IA-X-mediaPageStr: ClientMedia
+IA-X-offlineReportPageStr: ClientOfflineReport
+IA-X-updateStatusPageStr: ClientUpdateStatus
+IA-X-disclaimerFlag: 1 (or 0 )
+IA-X-socketPort: 82

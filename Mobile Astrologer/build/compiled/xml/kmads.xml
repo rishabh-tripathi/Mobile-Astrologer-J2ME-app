@@ -1,0 +1,22 @@
+<screen title="Mobile Astrologer">
+    <container style="layout:inlinelayout(false,fill);align:center">
+        <picture src="pwrdby.png"> </picture>
+        <textarea>Thank you for using Mobile Astrologer.</textarea>
+        <button onAction="home" shortcuts="1">Home</button>
+    </container>
+<screenFirstMenu onAction="back">Back</screenFirstMenu>
+    <screenSecondmenu>
+        More
+        <menuPopup>
+            <menuItem onAction="home">
+                Home
+            </menuItem>
+            <menuItem onAction="about">
+                About
+            </menuItem>
+            <menuItem onAction="exitConfirm">
+                Exit
+            </menuItem>
+        </menuPopup>
+    </screenSecondmenu>
+</screen>

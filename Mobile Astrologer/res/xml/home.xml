@@ -1,0 +1,48 @@
+<screen title="Mobile Astrologer">
+    <scrollpane>
+    <container style="layout:inlinelayout(false,fill);align:center">
+        <text>Enter Your Name</text>
+        <textfield id="name" tooltip="Your Birth Name"></textfield>
+        <textarea>Enter Your Birth Credentials</textarea>
+        <text>Date</text>
+        <textfield id="date" tooltip="Enter your date of birth" constraints="numeric" maxsize="2"></textfield>
+        <text>Month</text>
+        <choice id="month">
+             <choiceRadiogroup id="group">
+                <radiobutton id="01">January</radiobutton>
+                <radiobutton id="02">February</radiobutton>
+                <radiobutton id="03">March</radiobutton>
+                <radiobutton id="04">April</radiobutton>
+                <radiobutton id="05">May</radiobutton>
+                <radiobutton id="06">June</radiobutton>
+                <radiobutton id="07">July</radiobutton>
+                <radiobutton id="08">August</radiobutton>
+                <radiobutton id="09">September</radiobutton>
+                <radiobutton id="10">October</radiobutton>
+                <radiobutton id="11">November</radiobutton>
+                <radiobutton id="12">December</radiobutton>
+             </choiceRadiogroup>
+        </choice>
+        <text>Year</text>
+        <textfield id="year" tooltip="Enter your year of birth" constraints="numeric" maxsize="4"></textfield>
+        <text> </text>        
+        <button onAction="go" shortcuts="1">GO</button>
+        <picture src="pwrdby.png"> </picture>
+    </container>
+    </scrollpane>
+<screenFirstMenu onAction="go">GO</screenFirstMenu>
+    <screenSecondmenu>
+        More
+        <menuPopup>
+            <menuItem onAction="about">
+                About
+            </menuItem>
+            <menuItem onAction="help">
+                Help
+            </menuItem>    
+            <menuItem onAction="exitConfirm">
+                Exit
+            </menuItem>
+        </menuPopup>
+    </screenSecondmenu>
+</screen>

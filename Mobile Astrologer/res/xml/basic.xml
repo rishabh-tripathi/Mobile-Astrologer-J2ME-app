@@ -1,0 +1,34 @@
+<screen title="Mobile Astrologer">
+    <scrollpane>
+        <container style="layout:inlinelayout(false,top);align:center">
+            <text id="text1"> </text>
+            <picture src="line2.png"> </picture>
+            <textarea id="text2" styled="true" > </textarea>
+            <picture src="line.png"> </picture>
+            <textarea id="text3" styled="true"> </textarea>
+            <textarea id="details1" styled="true"> </textarea>
+            <textarea id="details2" styled="true"> </textarea>
+            <picture src="line.png"> </picture>
+            <textarea id="details3" styled="true"> </textarea>
+            <button onAction="next" shortcuts="1">Next</button>
+            <picture src="pwrdby.png"> </picture>
+        </container>
+    </scrollpane>
+    <screenFirstMenu onAction="back">Back</screenFirstMenu>
+    <screenSecondmenu>
+        More
+        <menuPopup>
+            <menuItem onAction="next">
+                Next
+            </menuItem>
+            <menuItem onAction="home">
+                Home
+            </menuItem>
+            <menuItem onAction="exitConfirm">
+                Exit
+            </menuItem>
+        </menuPopup>
+    </screenSecondmenu>
+
+
+</screen>

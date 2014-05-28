@@ -1,0 +1,9 @@
+MIDlet-1: Mobile Astrology,/img/logo.png,com.killermobi.ma.rish.Home
+MIDlet-Vendor: KillerMobi.com
+MIDlet-Info-URL: http://killermobi.com
+MIDlet-Name: Mobile Astrologer
+MIDlet-Icon: /img/logo.png
+MIDlet-Description: Mobile Astrologer is a free astrology tool for your mobile, which predict your personality based on your name and birth credential.
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
